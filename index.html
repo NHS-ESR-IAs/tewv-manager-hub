@@ -1628,34 +1628,45 @@ If they haven’t returned from absence, <b>don’t enter an end date</b> in ESR
 
 
         <ol>
-          <li> Click <strong><a
-                <div class="modal fade" id="Declarations_Modal" tabindex="-1" aria-labelledby="Declarations_ModalLabel"
+           <!-- Step-by-step instructions -->
+        <ol>
+          
+            <!-- Modalised linky Replace End_Employment_Modal with a unique value for each modal you want to make -->
+
+          <li>
+            Click <strong><a href="#" class="Declarations-link" title="Manage Declarations" data-bs-toggle="modal"
+                data-bs-target="#Declarations_Modal"> <b> here</b> </a></strong>
+            and click <strong>Action</strong> next to the team member you would like to view.  You will be able to view any declarations added by your team.
+          </li>
+
+          <div class="modal fade" id="Declarations_Modal" tabindex="-1" aria-labelledby="Declarations_ModalLabel"
             aria-hidden="true"> <!--* Replace both instances of ID with the unique ID from above *-->
             <div class="modal-dialog modal-xl modal-dialog-centered">
               <div class="modal-content text-start">
                 <div class="modal-header btn btn-primary w-100 mb-2 text-start">
-                  <h5 class="modal-title mb-0" id="Declarations_ModalLabel">Select Your ESR Responsibility to Review
-                    Absence in ESR</h5>
+                  <h5 class="modal-title mb-0" id="End_Employment_ModalLabel">Select Your ESR Responsibility to End an
+                    Employee's Employment</h5>
                   <!--* Replace the # with what you want the title of the Modal to say and ID with a unique ID for each Modal *-->
                   <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="card-body">
                   <a type="button" class="btn btn-primary w-100 mb-2 text-start"
-                    href="https://my.esr.nhs.uk/OA_HTML/RF.jsp?function_id=NHS_HR_LOA_SS_MAN_TREE&resp_id=84989&resp_appl_id=800&security_group_id=0&lang_code=US"
-                    class="add-absence-link" target="_blank" title="Add Absence"> <b>Administrator Self Service</b> </a>
+                    href="https://my.esr.nhs.uk/OA_HTML/RF.jsp?function_id=NHS_SSHR_ADM_CALL_TERMINATION&resp_id=84991&resp_appl_id=800&security_group_id=0&lang_code=US"
+                    class="Declarations-link" target="_blank" title="Manage Declarations"> <b>Administrator Self
+                      Service</b> </a>
+                  <!--<a type="button" class="btn btn-primary w-100 mb-2 text-start"
+                    href="https://my.esr.nhs.uk/OA_HTML/RF.jsp?function_id=NHS_SSHR_MGR_CALL_EIT_END_EMPLOYMENT&resp_id=84987&resp_appl_id=800&security_group_id=0&lang_code=US"
+                    class="Declarations-link" target="_blank" title="Manage Declarations"> <b>Supervisor Self Service</b>
+                  </a>-->
                   <a type="button" class="btn btn-primary w-100 mb-2 text-start"
-                    href="https://my.esr.nhs.uk/OA_HTML/RF.jsp?function_id=NHS_SSHR_MGR_CALL_EIT_ABSENCE&resp_id=84987&resp_appl_id=800&security_group_id=0&lang_code=US"
-                    class="add-absence-link" target="_blank" title="Add Absence"> <b>Supervisor Self Service</b> </a>
-                  <a type="button" class="btn btn-primary w-100 mb-2 text-start"
-                    href="https://my.esr.nhs.uk/OA_HTML/RF.jsp?function_id=NHS_HR_LOA_SS_MAN_TREE&resp_id=84987&resp_appl_id=800&security_group_id=0&lang_code=US"
-                    class="add-absence-link" target="_blank" title="Add Absence"> <b>Manager Self Service</b> </a>
+                    href="https://my.esr.nhs.uk/OA_HTML/RF.jsp?function_id=NHS_SSHR_MGR_CALL_TERMINATION&resp_id=84987&resp_appl_id=800&security_group_id=0&lang_code=US"
+                    class="Declarations-link" target="_blank" title="Manage Declarations"> <b>Manager Self Service</b> </a>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- Modalised Linky Ends here --></strong>.and Click <strong>Action</strong> next to the team
-            member you would like to view. You will be able to view any declarations added by your team.</li>
+          <!-- Modalised Linky Ends here -->
           <li>If you need to add any manager actions, click the pencil and click <strong>Add Action.</strong></li>
           <li>To view the Declaration of interest reports - click <a
               href="https://my.esr.nhs.uk/analytics/saw.dll?Dashboard" target="_blank">Her</ol>e</a></li>
